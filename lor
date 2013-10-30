@@ -1,0 +1,19 @@
+[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[31mF[0m
+
+Failures:
+
+  1) BaseBirthday::Base#save_to_file shoud saves result to the file
+     [31mFailure/Error:[0m [31mbase.save_to_file[0m
+     [31mErrno::EISDIR:[0m
+       [31mIs a directory - spec/[0m
+[36m     # ./lib/BaseBirthday.rb:154:in `gets'[0m
+[36m     # ./lib/BaseBirthday.rb:154:in `gets'[0m
+[36m     # ./lib/BaseBirthday.rb:154:in `save_to_file'[0m
+[36m     # ./spec/BaseBirthday_spec.rb:94:in `block (3 levels) in <module:BaseBirthday>'[0m
+
+Finished in 0.0339 seconds
+[31m14 examples, 1 failure[0m
+
+Failed examples:
+
+[31mrspec ./spec/BaseBirthday_spec.rb:90[0m [36m# BaseBirthday::Base#save_to_file shoud saves result to the file[0m

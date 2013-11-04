@@ -1,4 +1,5 @@
 require "BaseBirthday/version"
+require "fileutils"
 
 module BaseBirthday
 	class Base
@@ -162,3 +163,5 @@ module BaseBirthday
 
 	end
 end
+
+# BaseBirthday::Base.new.start
